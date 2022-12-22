@@ -12,11 +12,11 @@ class SpiderUWM(scrapy.Spider):
 
     # def scrape_announcement(self, response):
 
-    # yield {
-    #     "title": title,
-    #     "content": content,
-    #     "source_url": source_url,
-    # }
+        # yield {
+        #     "title": title,
+        #     "content": content,
+        #     "source_url": source_url,
+        # }
 
     def _is_valid_url(self, url):
         if url:
